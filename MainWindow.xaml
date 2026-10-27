@@ -2,7 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Calculatrice" Width="360" Height="580" MinWidth="320" MinHeight="520"
-        Background="{StaticResource Bg}" WindowStartupLocation="CenterScreen">
+        Background="{StaticResource Bg}" WindowStartupLocation="CenterScreen"
+	PreviewTextInput="Window_PreviewTextInput"
+        PreviewKeyDown="Window_PreviewKeyDown">
   <Grid Margin="16">
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto"/>
